@@ -1,0 +1,22 @@
+Toonloop logo
+-------------
+
+The toonloop.svg file can be open with inkscape. 
+
+Next, a PNG can be created from it with the following command:
+
+ $ inkscape -f toonloop.svg -w 48 -h 48 -e toonloop.png
+
+Install it to /usr/local/share/pixmap so that it is Toonloop's logo. This way, 
+one can see how it looks in the gnome panel or so, on a black, grey or white 
+background, for example. 
+
+The logo needs to have at least two colors in it. Black and white or grey are fine, fine other colors are fine too.
+
+It has been created from a frame in the famous horse in motion set of photographies by Eadweard Muybridge. I think it is the second in the third row of http://commons.wikimedia.org/wiki/File:Muybridge_race_horse_gallop.jpg
+
+
+Other sizes
+-----------
+
+We also need to create a 32x32 image in the XPM format. (I think it's for the Debian menu) That means the logo needs to look good in 48x48 and 32x32. This is quite small!
